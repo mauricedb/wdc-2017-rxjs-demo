@@ -15,8 +15,10 @@ const store$ = action$
 const dispatch = action => action$.next(action);
 
 
-// store$.subscribe(state => console.log("State:", state));
+store$.subscribe(state => console.log("State:", state));
 
-// setTimeout(() => dispatch({ type: "INCREMENT" }), 2000);
+setTimeout(() => dispatch({ type: "INCREMENT" }), 2000);
+setTimeout(() => dispatch({ type: "INCREMENT" }), 4000);
+setTimeout(() => dispatch({ type: "INCREMENT" }), 6000);
 
-// dispatch({ type: "RENAME", payload: "Kai" });
+dispatch({ type: "RENAME", payload: "Kai" });

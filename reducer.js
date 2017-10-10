@@ -14,4 +14,10 @@ const reducer = (state, action) => {
   }
 };
 
+// const r2 = (state, action) => ({
+//   count: count(state.count, action),
+//   firstName: firstName(state.firstName, action)
+// })
+
+
 module.exports = reducer;
