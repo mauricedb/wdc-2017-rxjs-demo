@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "rxjs": "^5.4.3"
+    "rxjs": "^6.4.0"
   },
   "devDependencies": {},
   "scripts": {
